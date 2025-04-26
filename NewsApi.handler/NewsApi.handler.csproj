@@ -11,8 +11,4 @@
     <ProjectReference Include="..\NewsApi.infstructure\NewsApi.infstructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Genirics\Interface\" />
-  </ItemGroup>
-
 </Project>
