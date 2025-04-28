@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewsApi.Domain.Dtos.BannerDto
 {
-    class WriteBanner
+    public class WriteBanner
     {
         public string ImageUrl { get; set; }
         public string Name { get; set; }

@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\NewsApi.Domain\NewsApi.Domain.csproj" />
     <ProjectReference Include="..\NewsApi.infstructure\NewsApi.infstructure.csproj" />
   </ItemGroup>
